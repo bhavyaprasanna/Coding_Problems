@@ -1,7 +1,7 @@
 BINARY SEARCH TREE -CREATION 
 
 
-class Node:
+class node:
     def __init__(self,x):
         self.left=self.right=None
         self.data=x
@@ -25,7 +25,7 @@ class Node:
         print(self.data,end=" ")
         if self.right:
             self.right.show()
-root=Node(40)
+root=node(40)
 while True:
         print()
         print("1.insert\n 2.show\n 3.exit\n")
