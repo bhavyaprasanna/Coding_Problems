@@ -20,6 +20,10 @@ def addEdge(n1,n2,w):
         edge.append(n2)
         edge.append(w)
         graph[n1].append(edge)
+        edge1=[]
+        edge.append(n1)
+        edge.append(w)
+        graph[n2].append(edge1)
 graph={}
 while True:
     print()
