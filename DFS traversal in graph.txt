@@ -2,7 +2,6 @@ DFS traversal in graph
 
 
 
-# ite Python 3 code in this online editor and run it.
 def dfs(visited,graph,node):
     if node not in visited:
         print(node,end=" ")
